@@ -5,9 +5,10 @@ import com.mycompany.dvdstore.entity.Movie;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class GoLiveMovieRepository {
+public class GoLiveMovieRepository implements MovieRepositoryInterface {
     FileWriter writer;
 
+    @Override
     public void add(Movie movie) {
         try {
             writer = new FileWriter("C:\\temp\\movies.txt", true);
