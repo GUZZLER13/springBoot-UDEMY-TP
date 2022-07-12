@@ -1,8 +1,8 @@
 package com.mycompany.dvdstore;
 
 import com.mycompany.dvdstore.controller.MovieController;
-import com.mycompany.dvdstore.repository.GoLiveMovieRepository;
-import com.mycompany.dvdstore.service.MovieService;
+import com.mycompany.dvdstore.repository.FileMovieRepository;
+import com.mycompany.dvdstore.service.DefaultMovieService;
 
 /**
  * Hello world!
@@ -14,14 +14,14 @@ public class App {
         MovieController movieController = new MovieController();
 
         // Instanciation du service
-        MovieService movieService = new MovieService();
+        DefaultMovieService defaultMovieService = new DefaultMovieService();
         // injection du service dans le controleur via le setter
-        movieController.setMovieServiceInterface(movieService);
+        movieController.setMovieServiceInterface(defaultMovieService);
 
         // Instanciation du repository
-        GoLiveMovieRepository goLiveMovieRepository = new GoLiveMovieRepository();
+        FileMovieRepository fileMovieRepository = new FileMovieRepository();
         // injection du repository dans le service via le setter
-        movieService.setMovieRepositoryInterface(goLiveMovieRepository);
+        defaultMovieService.setMovieRepositoryInterface(fileMovieRepository);
 
         // Appel du contrôleur
         movieController.addUsingConsole();
