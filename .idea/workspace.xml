@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Changement de perspective (on renomme les classes de manière à refléter l'aspect technique ou fonctionnel plutôt que le besoin cient)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 7 - Valoriser de la propriété de type File (movies.csv)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657634830947</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exercice 7 - Valoriser de la propriété de type File (movies.csv)">
+      <created>1658323450487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658323450487</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +133,7 @@
     <MESSAGE value="Injection des dépendances via les setters" />
     <MESSAGE value="Injection des dépendances via les setters (exercice 3)" />
     <MESSAGE value="Changement de perspective (on renomme les classes de manière à refléter l'aspect technique ou fonctionnel plutôt que le besoin cient)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changement de perspective (on renomme les classes de manière à refléter l'aspect technique ou fonctionnel plutôt que le besoin cient)" />
+    <MESSAGE value="Exercice 7 - Valoriser de la propriété de type File (movies.csv)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 7 - Valoriser de la propriété de type File (movies.csv)" />
   </component>
 </project>
