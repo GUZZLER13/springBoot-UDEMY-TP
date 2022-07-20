@@ -5,10 +5,11 @@ import com.mycompany.dvdstore.entity.Movie;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MemoryMovieRepository {
+public class MemoryMovieRepository implements MovieRepositoryInterface {
 
     private final static List<Movie> movies = new ArrayList<>();
 
+    @Override
     public void add(Movie movie) {
         // add movie to database.
         movies.add(movie);
