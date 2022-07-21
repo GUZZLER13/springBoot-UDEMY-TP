@@ -30,7 +30,7 @@ public class App {
 //        defaultMovieService.setMovieRepositoryInterface(fileMovieRepository);
 
 
-        ApplicationContext context = SpringApplication.run(App.class);
+        ApplicationContext context = SpringApplication.run(App.class, args);
         MovieController movieController = context.getBean(MovieController.class);
 
 
