@@ -8,6 +8,6 @@ public class AboutUsController {
     @RequestMapping("/about-us")
     public String displayFullDetails() {
         System.out.println("Tentative de l'affichage de la page AboutUs");
-        return "";
+        return "about-us";
     }
 }
