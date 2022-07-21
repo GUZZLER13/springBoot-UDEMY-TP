@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 18 - Fichiers statiques hors de l'application (Dans cet exercice nous allons mettre à disposition de l'application un emplacement dédié au fichiers statiques à l'extérieur de l'application. Cela permettrait de ne pas embarquer les fichiers dans le Jar en production et ainsi rendre les mises à jour plus flexibles)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/AboutUsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658395701345</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Exercice 18 - Fichiers statiques hors de l'application (Dans cet exercice nous allons mettre à disposition de l'application un emplacement dédié au fichiers statiques à l'extérieur de l'application. Cela permettrait de ne pas embarquer les fichiers dans le Jar en production et ainsi rendre les mises à jour plus flexibles)">
+      <created>1658396404331</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658396404331</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +230,7 @@
     <MESSAGE value="Exercice 15 - Standards Maven (Dans cette exercice nous allons essentiellement faire hériter notre application du projet Maven parent spring-boot-parent)" />
     <MESSAGE value="Exercice 16 - Mettre en place le serveur d'application (Notre application va devoir être capable de servir du contenu web. On va mettre en place dans cet exercice les technologies nécessaires)" />
     <MESSAGE value="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)" />
+    <MESSAGE value="Exercice 18 - Fichiers statiques hors de l'application (Dans cet exercice nous allons mettre à disposition de l'application un emplacement dédié au fichiers statiques à l'extérieur de l'application. Cela permettrait de ne pas embarquer les fichiers dans le Jar en production et ainsi rendre les mises à jour plus flexibles)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 18 - Fichiers statiques hors de l'application (Dans cet exercice nous allons mettre à disposition de l'application un emplacement dédié au fichiers statiques à l'extérieur de l'application. Cela permettrait de ne pas embarquer les fichiers dans le Jar en production et ainsi rendre les mises à jour plus flexibles)" />
   </component>
 </project>
