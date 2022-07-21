@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 16 - Mettre en place le serveur d'application (Notre application va devoir être capable de servir du contenu web. On va mettre en place dans cet exercice les technologies nécessaires)">
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658393865781</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)">
+      <created>1658395701345</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658395701345</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +223,7 @@
     <MESSAGE value="Exercice 14 - Passer à Spring Boot (L'objectif de cet exercice est de démarrer notre application avec Spring Boot. La structure de l'application est encore imparfaite mais elle est déjà compatible avec Spring Boot)" />
     <MESSAGE value="Exercice 15 - Standards Maven (Dans cette exercice nous allons essentiellement faire hériter notre application du projet Maven parent spring-boot-parent)" />
     <MESSAGE value="Exercice 16 - Mettre en place le serveur d'application (Notre application va devoir être capable de servir du contenu web. On va mettre en place dans cet exercice les technologies nécessaires)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 16 - Mettre en place le serveur d'application (Notre application va devoir être capable de servir du contenu web. On va mettre en place dans cet exercice les technologies nécessaires)" />
+    <MESSAGE value="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)" />
   </component>
 </project>
