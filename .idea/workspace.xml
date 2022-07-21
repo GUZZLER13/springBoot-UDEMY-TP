@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 12 - Se passer du fichier XML (Dans cet exercice nous allons déplacer la configuration qui se trouve dans le fichier XML vers une classe de Configuration)">
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 13 - Déplacer les annotations vers la classe exécutable App (L'objectif de cet exercice est simple : que la classe exécutable devienne également la classe de configuration)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658391322266</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exercice 13 - Déplacer les annotations vers la classe exécutable App (L'objectif de cet exercice est simple : que la classe exécutable devienne également la classe de configuration)">
+      <created>1658391772471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658391772471</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +190,7 @@
     <MESSAGE value="Exercice 10 - Annotation du chemin du fichier csv (Nous allons ici utiliser l'annotation @Value pour valoriser le chemin du fichier movies.csv via une clé de propriétés que nous allons ajouter dans un fichier application.properties situé à la racine du classpath)" />
     <MESSAGE value="Exercice 11 - Détection automatique des beans (Dans cet exercice nous allons mettre en place la détection automatique de nos composants et répondre au problème de conflit de dépendances en réorganisant nos packages)" />
     <MESSAGE value="Exercice 12 - Se passer du fichier XML (Dans cet exercice nous allons déplacer la configuration qui se trouve dans le fichier XML vers une classe de Configuration)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 12 - Se passer du fichier XML (Dans cet exercice nous allons déplacer la configuration qui se trouve dans le fichier XML vers une classe de Configuration)" />
+    <MESSAGE value="Exercice 13 - Déplacer les annotations vers la classe exécutable App (L'objectif de cet exercice est simple : que la classe exécutable devienne également la classe de configuration)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 13 - Déplacer les annotations vers la classe exécutable App (L'objectif de cet exercice est simple : que la classe exécutable devienne également la classe de configuration)" />
   </component>
 </project>
