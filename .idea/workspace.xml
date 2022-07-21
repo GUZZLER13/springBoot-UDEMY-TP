@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 19 - About Us (Notre application doit pouvoir afficher un &quot;A propos&quot; via l'URL /webui/about-us, commençons par mettre en place le contrôleur)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about-us.html" afterDir="false" />
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 21 - Afficher la liste des Films (Utiliser maintenant la page d'accueil de notre application Web pour afficher la liste des Films du catalogue)&#10;)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/AboutUsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/AboutUsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MovieRepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/MovieServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/MovieServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dvdstore-home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "settings.saveactions"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -216,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658403556671</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Exercice 20 - About Us page (On va maintenant faire en sorte que AboutUsController nous conduise à la bonne page, une nouvelle page dédiée au informations de contact)">
+      <created>1658404990873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658404990873</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +258,8 @@
     <MESSAGE value="Exercice 17 - Changer le port et le context root (On va dans cet exercice modifier les paramètre de configuration apportés par auto-configuration avec le starter spring-boot-starter-web)" />
     <MESSAGE value="Exercice 18 - Fichiers statiques hors de l'application (Dans cet exercice nous allons mettre à disposition de l'application un emplacement dédié au fichiers statiques à l'extérieur de l'application. Cela permettrait de ne pas embarquer les fichiers dans le Jar en production et ainsi rendre les mises à jour plus flexibles)" />
     <MESSAGE value="Exercice 19 - About Us (Notre application doit pouvoir afficher un &quot;A propos&quot; via l'URL /webui/about-us, commençons par mettre en place le contrôleur)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 19 - About Us (Notre application doit pouvoir afficher un &quot;A propos&quot; via l'URL /webui/about-us, commençons par mettre en place le contrôleur)" />
+    <MESSAGE value="Exercice 20 - About Us page (On va maintenant faire en sorte que AboutUsController nous conduise à la bonne page, une nouvelle page dédiée au informations de contact)" />
+    <MESSAGE value="Exercice 21 - Afficher la liste des Films (Utiliser maintenant la page d'accueil de notre application Web pour afficher la liste des Films du catalogue)&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 21 - Afficher la liste des Films (Utiliser maintenant la page d'accueil de notre application Web pour afficher la liste des Films du catalogue)&#10;)" />
   </component>
 </project>
