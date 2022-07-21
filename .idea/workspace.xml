@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 8 - Injection automatique des dépendances (Dans cet exercice nous allons remplacer les injections de dépendances explicites que nous avions réalisées via les balises property par de l'injection de dépendance implicite et automatique par reconnaissance du type des propriétés des beans)">
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658326778394</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)">
+      <created>1658327861459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658327861459</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +158,7 @@
     <MESSAGE value="Changement de perspective (on renomme les classes de manière à refléter l'aspect technique ou fonctionnel plutôt que le besoin cient)" />
     <MESSAGE value="Exercice 7 - Valoriser de la propriété de type File (movies.csv)" />
     <MESSAGE value="Exercice 8 - Injection automatique des dépendances (Dans cet exercice nous allons remplacer les injections de dépendances explicites que nous avions réalisées via les balises property par de l'injection de dépendance implicite et automatique par reconnaissance du type des propriétés des beans)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 8 - Injection automatique des dépendances (Dans cet exercice nous allons remplacer les injections de dépendances explicites que nous avions réalisées via les balises property par de l'injection de dépendance implicite et automatique par reconnaissance du type des propriétés des beans)" />
+    <MESSAGE value="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)" />
   </component>
 </project>

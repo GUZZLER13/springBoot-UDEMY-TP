@@ -6,6 +6,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
+    <context:property-placeholder location="classpath:application.properties"/>
 
     <bean id="controller" class="com.mycompany.dvdstore.controller.MovieController">
     </bean>
@@ -14,7 +15,6 @@
     </bean>
 
     <bean id="repository" class="com.mycompany.dvdstore.repository.FileMovieRepository">
-        <property name="file" value="C:\\temp\\movies.csv"/>
     </bean>
 
 </beans>
