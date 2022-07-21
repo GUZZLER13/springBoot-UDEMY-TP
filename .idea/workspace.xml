@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="b97fefe2-deb9-4fe4-a2c7-9c0c851d52f9" name="Changes" comment="Exercice 10 - Annotation du chemin du fichier csv (Nous allons ici utiliser l'annotation @Value pour valoriser le chemin du fichier movies.csv via une clé de propriétés que nous allons ajouter dans un fichier application.properties situé à la racine du classpath)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658327861459</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Exercice 10 - Annotation du chemin du fichier csv (Nous allons ici utiliser l'annotation @Value pour valoriser le chemin du fichier movies.csv via une clé de propriétés que nous allons ajouter dans un fichier application.properties situé à la racine du classpath)">
+      <created>1658386719346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658386719346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +168,7 @@
     <MESSAGE value="Exercice 7 - Valoriser de la propriété de type File (movies.csv)" />
     <MESSAGE value="Exercice 8 - Injection automatique des dépendances (Dans cet exercice nous allons remplacer les injections de dépendances explicites que nous avions réalisées via les balises property par de l'injection de dépendance implicite et automatique par reconnaissance du type des propriétés des beans)" />
     <MESSAGE value="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 9 - Annotation des dépendances (Dans cet exercice nous allons configurer l'injection de dépendance par l'intermédiaire d'annotations.)" />
+    <MESSAGE value="Exercice 10 - Annotation du chemin du fichier csv (Nous allons ici utiliser l'annotation @Value pour valoriser le chemin du fichier movies.csv via une clé de propriétés que nous allons ajouter dans un fichier application.properties situé à la racine du classpath)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 10 - Annotation du chemin du fichier csv (Nous allons ici utiliser l'annotation @Value pour valoriser le chemin du fichier movies.csv via une clé de propriétés que nous allons ajouter dans un fichier application.properties situé à la racine du classpath)" />
   </component>
 </project>
